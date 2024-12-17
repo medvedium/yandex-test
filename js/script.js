@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initSlider({
         selector: '.participants',
         slidesToShow: 3,
-        autoScroll: false,
+        autoScroll: true,
         scrollSpeed: 4000,
         responsive: [
             { breakpoint: 1180, slidesToShow: 2 },
